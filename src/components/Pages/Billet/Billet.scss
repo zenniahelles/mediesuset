@@ -1,0 +1,174 @@
+
+.billet{
+margin-bottom:300px;
+
+.title{
+    margin:0;
+    color:white;
+    background:rgb(41, 41, 41);
+    padding:20px;
+    font-size:24pt;
+}
+
+h3{
+    font-size:24pt;
+}
+
+.billetgrid{
+    padding:20px;
+    box-sizing:border-box;
+    padding-top:2%;
+    width:1366px;
+    display:grid;
+    margin:auto;
+    max-width:100%;
+    grid-gap:2%;
+    grid-template-columns: 1fr;
+    box-sizing: border-box;
+        .gridItem{
+        background:#f4f4f4;
+            p{
+                margin:0;
+            }
+
+            button{
+            margin:0;
+            width:30%;
+            padding:10px;
+            }
+
+            .ticketgrid{
+                display:grid;
+                grid-template-columns: 4fr 3fr 2fr;
+                padding:10px;
+                padding-left:40px;
+                border-bottom:1px solid black;
+                button{
+                    width:80%;
+                    padding:auto;
+                    margin:auto auto;
+                    outline:none;
+                    border:none;
+                    color:white;
+                    font-size:22pt;
+                    padding:18px;
+                    margin-top:15px;
+                    background:rgb(156, 48, 48);
+                    cursor:pointer;
+                }
+            }
+        }
+    }
+}
+
+.Buy{
+    width:100%;
+    max-width:1366px;
+    margin:auto;
+
+    .tickettype{
+        padding-left:40px;
+    }
+
+    .antal, .stk{
+        width:30px;
+        height:30px;
+        border:1.5px solid grey;
+        border-radius:5px;
+    }
+
+    .price{
+        float:right;
+        padding-right:40px;
+    }
+    .price2{
+        text-align:right;
+        padding-right:40px;
+        padding-bottom:35px;
+        border-bottom:1px solid rgb(172, 172, 172);
+        padding-top:35px;
+        border-top:1px solid rgb(172, 172, 172);
+    }
+
+    .stk{
+        margin-left:40px;
+        margin-bottom:10px;
+    }
+    .bestilGrid{
+        display:grid;
+        position:relative;
+        grid-template-columns: 1fr 1fr;
+        margin-left:40px;
+        margin-bottom:100px;
+        grid-gap:50px;
+
+        select{
+            padding:10px;
+            margin-top:8px;
+            border:1.5px solid grey;
+            border-radius:5px;
+            margin-bottom:18px;
+        }
+
+        .bottominput1, .bottominput2{
+            padding:10px;
+            margin-top:8px;
+            border:1.5px solid grey;
+            border-radius:5px;
+            margin-bottom:18px;
+        }
+        .bottominput1{
+            width:10%;
+            margin-right:10px;
+        }
+        .bottominput2{
+            width:50%;
+        }
+
+        .brugeropl{
+            width:100%;
+            box-sizing:border-box;
+            overflow:hidden;
+            padding:10px;
+            margin-top:8px;
+            border:1.5px solid grey;
+            border-radius:5px;
+            margin-bottom:18px;
+        }
+    }
+
+
+    .selection{
+        margin-left:10%;
+    }
+    h3{
+        background:rgb(39, 39, 39);
+        color:white;
+        padding:25px;
+        font-size:38px;
+    }
+    h4{
+        font-size:20pt;
+    }
+
+    p{
+        padding-left:40px;
+    }
+
+    .send{
+        position:absolute;
+        bottom:0;
+        right:0;
+        overflow:hidden;
+        width: 10%;
+        min-width: 200px;
+        background: #405986;
+        color:white;
+        padding: 20px;
+        font-size: 30px;
+        font-weight: 400;
+        border:none;
+        outline:none;
+        cursor: pointer;
+    }
+}

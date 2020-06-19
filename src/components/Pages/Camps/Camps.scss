@@ -1,0 +1,86 @@
+.Camps
+{
+    width:100%;
+    max-width:1366px;
+    margin:auto;
+    padding-bottom:100px;
+    p{
+        text-align:center;
+    }
+
+    .campGrid{
+        padding:20px;
+        box-sizing:border-box;
+        padding-top:6%;
+        width:1366px;
+        display:grid;
+        margin:auto;
+        max-width:100%;
+        grid-gap:2%;
+        grid-template-columns: 1fr 1fr 1fr;
+    
+        .gridItem{
+            background:#f4f4f4;
+        }
+    
+        h3{
+            font-size:14pt;
+            padding:15px;
+            padding-bottom:0;
+            text-transform:uppercase;
+        }
+    
+        p{
+            font-size:12pt;
+            padding:15px;
+            line-height:20pt;
+            padding-top:0;
+            text-align:left;
+        }
+    
+        img{
+                width:  100%;
+                height: 25vh;
+                object-fit: cover;
+        }
+    
+        button{
+            text-decoration:none;
+            color:white;
+            background:black;
+            padding:10px 20% 10px 20%;
+            text-transform:uppercase;
+            width:100%;
+            font-size:10pt;
+            margin-top:5%;
+            outline:none;
+            margin-bottom:5px;
+            border:none;
+            cursor:pointer;
+            &:hover{
+                background:#395f98;
+            }
+        }
+        }
+}
+
+.Camp{
+    box-sizing: border-box;
+    margin-bottom:100px;
+
+    h4, p{
+        padding:0;
+        margin:0;
+        padding:20px;
+    }
+
+    h4{
+        font-size:20pt;
+    }
+    img{
+        width:100%;
+        overflow:hidden;
+        object-fit: cover;
+        height:400px;
+    }
+}

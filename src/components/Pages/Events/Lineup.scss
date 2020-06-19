@@ -1,0 +1,76 @@
+.Lineup{
+    width:100%;
+    max-width:1200px;
+    margin:auto;
+    padding:7px;
+    box-sizing: border-box;
+
+    a {
+        text-decoration: none;
+      }
+.scenegrid{
+    margin-top: 70px;
+    margin-bottom:50px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+span{
+    display:inline-block;
+    text-align:center;
+    margin:auto;
+    width:100%;
+button{
+    width:100%;
+    min-width: 180px;
+    background: #424242;
+    text-transform: uppercase;
+    color:white;
+    padding: 20px 12px 20px 12px;
+    font-size: 18px;
+    font-weight: 400;
+    border:none;
+    outline:none;
+    cursor: pointer;
+}
+}
+
+.artistGrid{
+    box-sizing:border-box;
+    width:1366px;
+    display:grid;
+    margin:auto;
+    max-width:100%;
+    grid-gap:15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom:100px;
+
+    .gridItem{
+        background:#ac324c;
+
+        h4, p{
+            color:white;
+            text-decoration: none;
+            padding: 10px 10px 5px 20px;
+            text-shadow: rgba(0, 0, 0, 0.466) 2px 2px;
+            margin:0;
+        }
+
+        p{
+            padding-bottom:20px;
+        }
+
+        h4{
+            text-transform: uppercase;
+            font-size:18pt;
+        }
+
+
+    }
+
+    img{
+            width:  100%;
+            height: 35vh;
+            object-fit: cover;
+    }
+    }
+}

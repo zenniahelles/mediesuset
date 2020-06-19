@@ -1,0 +1,276 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+  // FRA 1000 OG NEDEFTER --------------------////////////////
+
+@media only screen and (max-width: 1000px) {
+  // NAV OG FOOTER ---------------------------------
+
+  nav{
+
+.menugrid{
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    position:relative;
+    margin:auto;
+
+    .logo{
+      width:100%;
+      margin:auto;
+      text-align:center;
+    }
+
+    .menu{
+        position: static;
+        width:100%;
+        margin:auto;
+        text-align:center;
+        margin:10px;
+        padding:10px;
+        box-sizing:border-box;
+        li{
+          padding:13px;
+        }
+    }
+}
+}
+
+footer{
+  form{
+    width:80% !important;
+  }
+}
+  
+  // NYHEDER ------------------------------------------------
+  .nyheder{
+  .nyhederGrid{
+    grid-template-columns: auto auto;
+  }
+  .archive{
+    margin-top:70px;
+    margin-bottom:50px;
+      }
+}
+  
+  // KØB BILLET ------------------------------------
+  
+
+  .billet{
+    margin-bottom:300px;
+    
+    .title{
+        margin:0;
+        color:white;
+        background:rgb(41, 41, 41);
+        padding:20px;
+        font-size:24pt;
+    }
+    
+    h3{
+        font-size:24pt;
+    }
+    
+      .ticketgrid{
+        h3{
+          font-size:18pt;
+          padding-top:5px;
+        }
+      }
+  }
+
+  .billet .billetgrid .gridItem .ticketgrid button {
+    font-size:16pt;
+  }
+
+.Buy .bestilGrid .bottominput2{
+    width:30%;
+  }
+
+  
+  // EVENTS -----------------------------------------
+
+  .Artist{
+    width:100%;
+    max-width:1200px;
+    margin:auto;
+    margin-top:50px;
+    margin-bottom:100px;
+    overflow:hidden;
+
+
+    img{
+        padding:0 25px 25px 25px;
+        width:50%;
+        float:right;
+        box-sizing: border-box;
+    }
+
+    p{
+        font-size:16pt;
+    }
+
+    h4{
+        font-size:20pt;
+    }
+}
+
+  // PRAKTISK INFO -----------------------------------------
+  
+
+  // CAMPS -----------------------------------------
+  .Camp{
+    img{
+        width:100%;
+        overflow:hidden;
+        object-fit: cover;
+        height:300px;
+    }
+}
+}
+  //FRA 768 OG NEDEFTER ---------------------////////////////
+  
+  @media only screen and (max-width: 768px) {
+    footer{
+      form{
+        width:95% !important;
+        input{
+          width:60% !important;
+          padding-top:20px !important;
+        }
+        button{
+          width:30% !important;
+          font-size:10pt !important;
+        }
+      }
+    }
+
+    .billet{
+    .ticketgrid{
+      h3{
+        font-size:14pt;
+        padding-top:14px;
+      }
+    }
+  }
+
+  .billet .billetgrid .gridItem .ticketgrid button {
+    font-size:12pt;
+  }
+
+  .Buy{
+  .bestilGrid{
+    display:grid;
+    position:relative;
+    grid-template-columns: 1fr;
+    margin-left:40px;
+    margin-bottom:100px;
+    grid-gap:50px;
+    padding:20px;
+
+    button{
+      position:static;
+      display:block;
+      margin-top:60px;
+      float:right;
+    }
+  }
+  }
+
+  // EVENTS UNDERSIDE -----------------------------------------
+
+  .Lineup{
+    overflow:hidden;
+
+    .scenegrid {
+      button{
+        min-width:100%;
+      }
+    }
+  .artistGrid{
+    grid-template-columns: 1fr 1fr;
+    padding:10px;
+  }
+}
+
+// CAMPS UNDERSIDE -------------------------------------------
+
+.Camps{
+  .campGrid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+//PRAKTISK ---------------------------------------------------
+
+.Praktisk{
+  .praktiskGrid{
+   grid-template-columns: 1fr; 
+   grid-gap:10px;
+  }
+}
+  }
+  // FRA 610 OG NEDEFTER --------------------////////////////
+  
+  @media only screen and (max-width: 610px) {
+  // NYHEDER ------------------------------------------------
+  .nyheder{
+  .nyhederGrid{
+    grid-template-columns: auto;
+  }
+  padding-bottom:50px;
+
+  .archive{
+margin-top:300px;
+  }
+}
+
+// KØB BILLET ------------------------------------------------
+
+.billet{
+  .ticketgrid{
+    h3{
+      font-size:12pt;
+      padding-top:18px;
+    }
+  }
+}
+
+.billet .billetgrid .gridItem .ticketgrid button {
+  font-size:10pt;
+  width:100px;
+}
+
+
+  // EVENTS UNDERSIDE ------------------------------------
+  .Lineup{
+    overflow:hidden;
+    .scenegrid {
+      grid-template-columns: 1fr;
+    }
+  .artistGrid{
+    grid-template-columns: 1fr;
+    padding:10px;
+  }
+}
+
+// CAMPS UNDERSIDE ---------------------------------------------
+
+.Camps{
+  .campGrid{
+    grid-template-columns: 1fr;
+  }
+}
+
+  // LOGIN UNDERSIDE --------------------------------------------
+  }

@@ -1,0 +1,99 @@
+nav{
+    font-family:Trebuchet MS;
+    width:100%;
+    z-index:1;
+    position:relative;
+    margin:auto;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.253);
+
+.menugrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width:100%;    
+    max-width:1366px;
+    position:relative;
+    margin:auto;
+
+    .menu{
+        position:absolute;
+        bottom:20px;
+        right:0;
+    }
+}
+
+    ul{
+margin:auto;
+padding:0;
+padding-right:10px;
+    }
+
+
+li{
+    display:inline-block;
+    font-size:12pt;
+    font-weight:100;
+    text-decoration:none;
+    padding-left:25px;
+    :visited{
+        color:black;
+    }
+    :hover{
+        color:#791f79;
+    }
+    a{
+        text-decoration:none;
+    }
+}
+
+button{
+    background:#ac324c;
+    border:none;
+    text-decoration:none;
+    padding:10px 30px 10px 30px;
+    color:white;
+    font-weight:bold;
+    font-size:10pt;
+    outline:none;
+    cursor:pointer;
+
+}
+button:hover{
+    background:#74162b;
+}
+
+
+
+.dropdown {
+    display:inline-block;
+.dropbtn {
+    border: none;
+    outline: none;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding:0;
+  li {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  li:hover {
+    background-color: rgb(231, 231, 231);
+  }
+  }
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+}
