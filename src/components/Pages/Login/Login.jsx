@@ -83,9 +83,10 @@ class Login extends React.Component {
         return (
           <div className="app">
             <div className="container">
-              Welcome {UserStore.username}
+              <p className="logout">Welcome {UserStore.username}</p>
 
               <SubmitButton
+                className="logoutbutton"
                 text={'Log out'}
                 disabled={false}
                 onClick={() => this.doLogOut()}
